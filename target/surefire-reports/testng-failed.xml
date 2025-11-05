@@ -5,8 +5,8 @@
     <classes>
       <class name="com.example.demo.AppTestTPFinal">
         <methods>
+          <include name="testInscription"/>
           <include name="setUp"/>
-          <include name="testLogin"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.example.demo.AppTestTPFinal -->

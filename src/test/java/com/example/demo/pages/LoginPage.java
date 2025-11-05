@@ -25,7 +25,7 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
-    public void login(String email, String password) {
+    public void login(String email, String name) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         // Attendre que le champ email soit visible
         wait.until(ExpectedConditions.visibilityOf(autoriserButton));
@@ -35,7 +35,7 @@ public class LoginPage extends BasePage {
         emailInput.sendKeys(email);
         wait.until(ExpectedConditions.visibilityOf(passwordInput));
         passwordInput.clear();
-        passwordInput.sendKeys(password);
+        passwordInput.sendKeys(name);
         loginButton.click();
     }
 }
