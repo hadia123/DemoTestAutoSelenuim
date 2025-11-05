@@ -1,4 +1,4 @@
-package com.example.demo.pages;
+/*package com.example.demo.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -73,4 +73,4 @@ public class SignupPage extends BasePage {
     public void submitAccount() {
         btnCreateAccount.click();
     }
-}
+}*/

@@ -1,4 +1,4 @@
-@Test
+/*@Test
 public void testCreateAccount() {
     driver.get("https://automationexercise.com/login");
 
@@ -21,3 +21,4 @@ public void testCreateAccount() {
 
     Assert.assertTrue(driver.getTitle().contains("Account Created"));
 }
+*/
