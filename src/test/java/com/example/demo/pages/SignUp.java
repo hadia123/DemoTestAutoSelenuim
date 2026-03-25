@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.example.demo.pages.BasePage;
+
 public class SignUp extends BasePage {
 
      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -50,9 +52,6 @@ public class SignUp extends BasePage {
 
     @FindBy(xpath = "//a[@data-qa='continue-button']")
     private WebElement bnt_continue;
-
-    
-
     // button valider
     @FindBy(xpath = "//button[contains(text(),'Create Account')]")
     private WebElement button_create;

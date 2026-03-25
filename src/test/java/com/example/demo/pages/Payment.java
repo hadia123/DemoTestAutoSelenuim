@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.example.demo.pages.BasePage;
 import com.example.demo.utils.UtilsMethode;
 
 public class Payment extends BasePage {

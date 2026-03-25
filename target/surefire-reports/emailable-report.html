@@ -9,10 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">139 884</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">36 827</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.example.demo.AppTestTPFinal</td><td><a href="#m0">testInscription</a></td><td rowspan="1">1762358645420</td><td rowspan="1">128129</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.example.demo.tests.AppTestTPFinal</td><td><a href="#m0">testValidLogin</a></td><td rowspan="1">1774453252625</td><td rowspan="1">24976</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">com.example.demo.AppTestTPFinal#testInscription</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">com.example.demo.tests.AppTestTPFinal#testValidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/products&quot;&gt;...&lt;/a&gt; is not clickable at point (598, 40). Other element would receive the click: &lt;iframe id=&quot;aswift_2&quot; name=&quot;aswift_2&quot; style=&quot;min-height: auto !important; max-height: none !important; min-width: auto !important; max-width: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;&quot; height=&quot;&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; allow=&quot;attribution-reporting; run-ad-auction&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20260324/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;amp;adk=1812271808&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=8&amp;amp;ifi=3&amp;amp;uci=a!3&quot; data-google-container-id=&quot;a!3&quot; tabindex=&quot;0&quot; title=&quot;Advertisement&quot; aria-label=&quot;Advertisement&quot; data-google-query-id=&quot;COf67saxu5MDFZ9yRwEdoQQ4vA&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=146.0.7680.80)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f93b3933c9920b575b321393353d5ea7, clickElement {id=f.8612621810F6C8AB89AAE19DD661E980.d.F0A467F06DCAB1DBF6EDDD1A2E682BE0.e.113}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\hadelman\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59089}, goog:processID: 44052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59089/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f93b3933c9920b575b321393353d5ea7)] -&gt; xpath: (//a[contains(.,&apos; Products&apos;)])[1]]
+Session ID: f93b3933c9920b575b321393353d5ea7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+	at com.example.demo.pages.Products.ajoutPanier(Products.java:45)
+	at com.example.demo.tests.AppTestTPFinal.testValidLogin(AppTestTPFinal.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,0 +1,13 @@
+com\example\demo\Pages2\BasePage.class
+com\example\demo\utils\DriverManager.class
+com\example\demo\tests\AppTestTPFinal.class
+com\example\demo\Pages2\SignUp.class
+com\example\demo\tests\AppTest.class
+com\example\demo\tests\AppTestFormulaire.class
+com\example\demo\pages\Products.class
+com\example\demo\pages\Payment.class
+com\example\demo\pages\SignUp.class
+com\example\demo\Pages2\LoginPage.class
+com\example\demo\pages\LoginPage.class
+com\example\demo\tests\AppDemoTest.class
+com\example\demo\utils\UtilsMethode.class

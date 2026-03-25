@@ -10,6 +10,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.example.demo.pages.BasePage;
+
 public class Products extends BasePage {
      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
@@ -25,7 +27,7 @@ public class Products extends BasePage {
     private WebElement viewCarte;
 
     @FindBy(xpath = "//a[text()='Proceed To Checkout']")
-    private WebElement processCheckout;
+    private WebElement processCheckout; 
 
     @FindBy(xpath = "//*[@id=\"ordermsg\"]//textarea")
     private WebElement textareacomment;
